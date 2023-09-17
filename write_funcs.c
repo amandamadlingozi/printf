@@ -2,12 +2,12 @@
 #include <unistd.h>
 
 /**
- * _putchar - Writes a single character to the standard output.
- * @c: The character to be written.
- *
- * This function writes the character 'c' to the standard output.
+ * _putchar function maintains a static
+ * buffer of size 1024 characters.
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-void _putchar(char c)
+int _putchar(char c)
 {
 	static char buf[1024];
 	static int i;
@@ -26,12 +26,12 @@ void _putchar(char c)
 }
 
 /**
- * _puts - Writes a string to the standard output.
- * @str: The string to be written.
- *
- * This function writes the string 'str' to the standard output.
+ * _puts function is used to print a string to the standard
+ * output (stdout)
+ * @str: pointer to the string to print
+ * Return: number of chars written
  */
-void _puts(char *str)
+int _puts(char *str)
 {
 	register int i;
 
