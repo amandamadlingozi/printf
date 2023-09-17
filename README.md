@@ -1,4 +1,4 @@
-# Project for the printf Function
+# Project of the printf Function
 ## Introduction to the _printf Function
 The _printf function, short for "print formatted," is a versatile function that outputs formatted data to the standard output stream. It operates as a variadic function, meaning it can accept a variable number of arguments. The function takes a format string as its first argument, followed by any number of arguments corresponding to the placeholders in the format string. The format string contains both ordinary characters and format specifiers, which are special placeholders defining the desired output format for each argument. In essence, the _printf function is used to display various data types, format strings, and control the output format.
 
