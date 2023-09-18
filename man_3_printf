@@ -1,0 +1,31 @@
+.TH _printf (3) "28/06/2023" "1.0" "_printf C Languege Programmer's Manual"
+
+.SH NAME
+_printf
+
+.SH DESCRIPTION
+The "printf" function takes a format string as its first argument, which specifies how the output should be formatted. It may contain format specifiers that are replaced by the values of additional arguments.
+
+.SH SYNOPSIS
+Here's a simple example that demonstrates the usage of "printf":
+
+#include <stdio.h>
+
+int main() {
+    int number = 42;
+    printf("The answer is %d\n", number);
+    return 0;
+}
+.TP
+.BR
+In this example, the "%d" format specifier is used to print the value of the variable "number" as a decimal integer.
+.TP
+.BR
+Running this program would output:
+The answer is 42
+.TP
+.BR
+The "printf" function supports various format specifiers for different types of data, such as integers, floating-point numbers, characters, and strings. Additionally, it provides options for controlling the field width, precision, and justification of the output.
+
+.SH AUTHORS
+Amanda Madlingozi and Sbusiso Mawayi
